@@ -1,0 +1,44 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "axios": "^0.25.0",
+        "laravel-mix": "^6.0.6",
+        "lodash": "^4.17.19",
+        "postcss": "^8.1.14",
+        "vue-loader": "^16.8.3",
+        "vue-template-compiler": "^2.6.14"
+    },
+    "dependencies": {
+        "@chenfengyuan/vue-number-input": "^2.0.1",
+        "@fawmi/vue-google-maps": "^0.9.67",
+        "@inertiajs/inertia": "^0.11.1",
+        "@inertiajs/inertia-vue3": "^0.6.0",
+        "@inertiajs/progress": "^0.2.7",
+        "@myshell/alvue": "^1.2.4",
+        "babel-preset-es2015": "^6.24.1",
+        "body-scroll-lock": "^4.0.0-beta.0",
+        "chart.js": "^3.8.0",
+        "print-js": "^1.6.0",
+        "v-scroll-lock": "^1.3.1",
+        "vue": "^3.2.37",
+        "vue-chartjs": "^4.1.1",
+        "vue-final-modal": "^3.4.3",
+        "vue-select": "^4.0.0-beta.3",
+        "vue-sweetalert2": "^5.0.2",
+        "vue-toastification": "^2.0.0-rc.5",
+        "vue3-carousel": "^0.2.16",
+        "vue3-instagram-feed": "^0.1.4",
+        "vue3-table-lite": "^1.1.9",
+        "ziggy": "^2.4.0",
+        "ziggy-js": "^1.5.0"
+    }
+}
