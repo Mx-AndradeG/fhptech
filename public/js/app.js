@@ -921,6 +921,14 @@ var map = {
 	"./Register.vue": [
 		"./resources/Pages/Register.vue",
 		"resources_Pages_Register_vue"
+	],
+	"./prueba": [
+		"./resources/Pages/prueba.vue",
+		"resources_Pages_prueba_vue"
+	],
+	"./prueba.vue": [
+		"./resources/Pages/prueba.vue",
+		"resources_Pages_prueba_vue"
 	]
 };
 function webpackAsyncContext(req) {
